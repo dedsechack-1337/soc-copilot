@@ -5,6 +5,11 @@ language, generate validated Sigma and YARA rules, and map behaviors to
 MITRE ATT&CK — all through a chat interface, powered by an open LLM via
 Ollama with retrieval-augmented generation over the real ATT&CK corpus.
 
+![SOC Copilot chat UI — ATT&CK mapping and a validated Sigma rule for LSASS credential dumping](docs/screenshot.png)
+*Mockup of the Streamlit UI, illustrating a query that chains ATT&CK mapping
++ Sigma generation. Run `streamlit run app.py` locally (with Ollama serving)
+to see it live with your own data.*
+
 ## Architecture
 
 ```
